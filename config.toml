@@ -1,0 +1,37 @@
+# DO NOT REMOVE THIS
+theme = "hugo-theme-codex" 
+
+# Override these settings with your own
+title = "Diego Machaca"
+languageCode = "en-us"
+baseURL = "https://diegomachaca.com"
+copyright = "© {year}"
+
+[params]
+  twitter = "https://twitter.com/djegood"
+  github = "https://github.com/djego"
+  linkedin = "https://www.linkedin.com/in/diegomachaca/"
+  # ...
+
+  iconOrder = ["Twitter", "GitHub", "LinkedIn"]
+
+  showPageTitleInTOC = true
+
+[params.colors]
+    fancy = "#fff"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+
+# Controls the navigation
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
