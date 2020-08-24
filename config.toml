@@ -2,9 +2,8 @@
 theme = "hugo-theme-codex" 
 
 # Override these settings with your own
-title = "Diego Machaca"
+title = "Diego Machaca profile"
 languageCode = "en-us"
-baseURL = "https://diegomachaca.com"
 copyright = "© {year}"
 
 [params]
@@ -34,4 +33,4 @@ copyright = "© {year}"
   identifier = "about"
   name = "about"
   title = "About"
-  url = "/"
+  url = "/" 
